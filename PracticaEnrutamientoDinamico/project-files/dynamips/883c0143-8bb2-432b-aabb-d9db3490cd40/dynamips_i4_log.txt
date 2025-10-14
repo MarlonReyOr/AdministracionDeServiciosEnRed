@@ -1,0 +1,42 @@
+Sep 18 16:45:19.070 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 18 16:45:19.073 HYPERVISOR: Started on IP = localhost, TCP port = 57841.
+Sep 18 16:45:19.491 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 18 16:45:19.493 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips 
+Sep 18 16:45:19.493 GENERAL: working_dir=C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips
+Sep 18 16:45:19.494 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips\0d00f4bc-c851-4966-8213-5714341f90e3 
+Sep 18 16:45:19.495 GENERAL: working_dir=C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips\0d00f4bc-c851-4966-8213-5714341f90e3
+Sep 18 16:45:19.495 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Sep 18 16:45:19.499 VM: VM R4 created.
+Sep 18 16:45:19.500 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Sep 18 16:45:19.501 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Sep 18 16:45:19.501 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.502 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Sep 18 16:45:19.506 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/ASUS/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Sep 18 16:45:19.508 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.508 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60796358 
+Sep 18 16:45:19.509 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Sep 18 16:45:19.510 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Sep 18 16:45:19.511 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Sep 18 16:45:19.513 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Sep 18 16:45:19.515 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.515 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-FE-TX 
+Sep 18 16:45:19.517 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.517 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-2FE-TX 
+Sep 18 16:45:19.519 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.519 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-GE 
+Sep 18 16:45:19.520 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.521 HYPERVISOR: exec_cmd: vm slot_add_binding R4 4 0 PA-4T+ 
+Sep 18 16:45:19.522 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.523 HYPERVISOR: exec_cmd: vm slot_add_binding R4 5 0 PA-8T 
+Sep 18 16:45:19.524 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:45:19.525 HYPERVISOR: exec_cmd: vm slot_add_binding R4 6 0 PA-8E 
+Sep 18 16:45:19.652 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/ASUS/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Sep 18 16:45:22.322 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/ASUS/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Sep 18 16:45:36.834 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/ASUS/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Sep 18 16:48:01.518 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 18 16:48:01.522 HYPERVISOR: exec_cmd: vm extract_config R4 
+Sep 18 16:48:01.542 HYPERVISOR: exec_cmd: vm delete R4 
+Sep 18 16:48:01.542 VM: VM R4 destroyed.
+Sep 18 16:48:01.559 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 18 16:48:01.671 HYPERVISOR: Stopped.
+Sep 18 16:48:01.671 GENERAL: reset done.

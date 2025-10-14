@@ -1,0 +1,41 @@
+Sep 18 16:45:28.434 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 18 16:45:28.437 HYPERVISOR: Started on IP = localhost, TCP port = 57853.
+Sep 18 16:45:28.877 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 18 16:45:28.879 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips 
+Sep 18 16:45:28.879 GENERAL: working_dir=C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips
+Sep 18 16:45:28.880 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips\a6b89b5b-1e6d-452f-a190-0735b6e03786 
+Sep 18 16:45:28.881 GENERAL: working_dir=C:\Users\ASUS\GNS3\projects\PracticaEnrutamientoDinamico\project-files\dynamips\a6b89b5b-1e6d-452f-a190-0735b6e03786
+Sep 18 16:45:28.882 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Sep 18 16:45:28.887 VM: VM R5 created.
+Sep 18 16:45:28.888 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+Sep 18 16:45:28.889 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Sep 18 16:45:28.889 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.890 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Sep 18 16:45:28.894 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/ASUS/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Sep 18 16:45:28.895 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.895 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60796358 
+Sep 18 16:45:28.896 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Sep 18 16:45:28.898 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Sep 18 16:45:28.899 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Sep 18 16:45:28.902 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Sep 18 16:45:28.903 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.903 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-FE-TX 
+Sep 18 16:45:28.906 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.906 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 PA-2FE-TX 
+Sep 18 16:45:28.908 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.908 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 PA-GE 
+Sep 18 16:45:28.909 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.910 HYPERVISOR: exec_cmd: vm slot_add_binding R5 4 0 PA-4T+ 
+Sep 18 16:45:28.911 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.912 HYPERVISOR: exec_cmd: vm slot_add_binding R5 5 0 PA-8T 
+Sep 18 16:45:28.913 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:45:28.914 HYPERVISOR: exec_cmd: vm slot_add_binding R5 6 0 PA-8E 
+Sep 18 16:45:29.062 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/ASUS/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Sep 18 16:45:33.425 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/ASUS/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Sep 18 16:48:01.514 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 18 16:48:01.521 HYPERVISOR: exec_cmd: vm extract_config R5 
+Sep 18 16:48:01.539 HYPERVISOR: exec_cmd: vm delete R5 
+Sep 18 16:48:01.539 VM: VM R5 destroyed.
+Sep 18 16:48:01.565 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 18 16:48:02.055 HYPERVISOR: Stopped.
+Sep 18 16:48:02.055 GENERAL: reset done.
